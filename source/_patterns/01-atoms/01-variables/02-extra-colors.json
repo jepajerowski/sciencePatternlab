@@ -1,0 +1,104 @@
+{
+  "items": [
+    
+{
+      "name": "$dark-divider",
+      "value": "#393939",
+      "comment": "$gray-800"
+    },
+
+{
+      "name": "$related-article-bg-color",
+      "value": "#fff4e2",
+      "comment": ""
+},
+{
+      "name": "$black-gray",
+      "value": "#0b0b0b",
+      "comment": "$verydark"
+    },
+{
+      "name": "$darker",
+      "value": "#1a1a1a",
+      "comment": "Used as background in TOC widget for special issue and Journal landing page for TOC widget box"
+    },
+
+{
+      "name": "$dark-gray01",
+      "value": "#333",
+      "comment": "Used as hover state for $darker-gray text"
+    },
+
+{
+      "name": "$gray-400",
+      "value": "#c4c4c4",
+      "comment": "Used as hover state for white text"
+    },
+
+{
+      "name": "$lighter-gray",
+      "value": "#7f7f7f",
+      "comment": "Used for footer links"
+    },
+
+
+
+
+{
+      "name": "$gray-500",
+      "value": "#f8f8f8",
+      "comment": "Used for some disabled states"
+    },
+    {
+      "name": "$disabled-color",
+      "value": "#eee",
+      "comment": "Used for some disabled states; also called $mute"
+    },
+
+
+{
+      "name": "$dark-gray02",
+      "value": "#6e6e6e",
+      "comment": "Theoretically used for captions on $very-light-gray background; in actuality overridden by $text-gray"
+    },
+
+
+{
+      "name": "$on-black-border",
+      "value": "#505050",
+      "comment": "Used as divider in journal dropdown"
+    },
+
+
+
+
+
+
+
+
+
+
+
+{
+      "name": "$info-color",
+      "value": "#17a2b8",
+      "comment": "?"
+    },
+{
+      "name": "$access-free",
+      "value": "#74b600",
+      "comment": "$access-full"
+    },
+{
+      "name": "$access-open",
+      "value": "#f68212",
+      "comment": ""
+    }
+  ],
+  "meta": {
+      "description": "Used on some occasions"
+  }
+}
+
+
+
