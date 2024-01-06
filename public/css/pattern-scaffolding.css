@@ -74,6 +74,16 @@
 	margin-bottom: 4px;
 }
 
+.sg-table {
+	font-size: 14px;
+	border: 1px solid #dbdbdb;
+}
+
+.sg-table thead{
+	background-color: #dbdbdb;
+}
+
+
 
 /**
  * Icon grid

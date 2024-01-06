@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "$font-family-sans-serif",
+      "value": "roboto,sans-serif",
+      "comment": "The default style for text is sans-serif Roboto."
+    },
+    {
+      "name": "$font-family-serif",
+      "value": "'PT Serif', serif",
+      "comment": "Serif text is used for paragraphs within the body of a page, article, or other content."
+    }
+  ],
+}

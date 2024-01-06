@@ -1,0 +1,24 @@
+<div class="table-responsive">
+    <table class="table table-sm sg-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value in rem</th>
+                <th>Value in px</th>
+                <th>Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+
+    {{# items }}
+    <tr>
+        <td>{{ name }}</td>
+        <td>{{ value-rem }}</td>
+        <td>{{ value-px }}</td>
+        <td>{{ comment }}</td>
+    </tr>
+    {{/ items }}
+        </tbody>
+    </table>
+</div>
+<small>{{{ meta.description }}}</small>

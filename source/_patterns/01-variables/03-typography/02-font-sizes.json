@@ -1,0 +1,44 @@
+{
+  "items": [
+  {
+    "name": "$font-size-base",
+    "value-rem": "1rem",
+    "value-px": "16px",
+  },
+  {
+    "name": "$font-size-xl",
+    "value-rem": "1.375rem",
+    "value-px" : "24px",
+    "comment": "$font-size-base * 1.375"
+  },
+  {
+    "name": "$font-size-lg",
+    "value-rem": "1.25rem",
+    "value-px" : "20px",
+    "comment": "$font-size-base * 1.25"
+  },
+  {
+    "name": "$font-size-md",
+    "value-rem": "1.125rem",
+    "value-px" : "18px",
+    "comment": "$font-size-base * 1.125"
+  },
+  {
+    "name": "$font-size-sm",
+    "value-rem": "0.875rem",
+    "value-px" : "14px",
+    "comment": "$font-size-base * 0.875"
+  },
+  {
+    "name": "$font-size-xs",
+    "value-rem": "0.75rem",
+    "value-px" : "12px",
+    "comment": "$font-size-base * 0.75"
+  },
+  {
+    "name": "$font-size-xxs",
+    "value-rem": "0.625rem",
+    "value-px" : "10px",
+    "comment": "$font-size-base * 0.625"
+  }],
+}
