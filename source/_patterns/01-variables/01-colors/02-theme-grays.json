@@ -1,0 +1,70 @@
+{
+  "items": [
+  
+    {
+      "name": "$very-light-gray",
+      "value": "#f5f5f5",
+      "comment": ""
+    },
+    {
+      "name": "$light-gray",
+      "value": "#dbdbdb",
+      "comment": "$gray-300"
+    },
+    {
+      "name": "$gray",
+      "value": "#757575",
+      "comment": ""
+    },
+    {
+      "name": "$dark-gray",
+      "value": "#707070",
+      "comment": ""
+    },
+
+    {
+      "name": "$darker-gray",
+      "value": "#595959",
+      "comment": ""
+    },
+    {
+      "name": "$deep-gray",
+      "value": "#262626",
+      "comment": "$dark"
+    },
+    {
+      "name": "$black-gray",
+      "value": "#0b0b0b",
+      "comment": "$verydark"
+    },
+    {
+      "name": "$mute",
+      "value": "#eee",
+      "comment": "Used for some disabled states; also called $disabled-color"
+    },
+
+    {
+      "name": "$dark-divider",
+      "value": "#393939",
+      "comment": "$gray-800"
+    },
+    {
+      "name": "$darker",
+      "value": "#1a1a1a",
+      "comment": "Used as background in TOC widget for special issue and Journal landing page for TOC widget box"
+    },
+  {
+      "name": "$white",
+      "value": "#fff",
+      "comment": ""
+    },
+
+
+
+
+  ],
+  "meta":
+  {
+    "description": "$white is not technically included in $theme-grays, but it gets utility classes like the other grays."
+  }
+}

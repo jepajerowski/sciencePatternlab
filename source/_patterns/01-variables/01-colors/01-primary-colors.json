@@ -1,0 +1,20 @@
+{
+  "items": [
+
+    {
+      "name": "$primary",
+      "value": "#ca2015",
+      "comment": "$secondary"
+    },
+    {
+      "name": "$primary-hover",
+      "value": "#b91e13",
+      "comment": ""
+    },
+
+
+
+  ],
+  "meta":
+  {}
+}

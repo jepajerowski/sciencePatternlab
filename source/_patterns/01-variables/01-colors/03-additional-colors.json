@@ -1,10 +1,11 @@
 {
   "items": [
     
-{
-      "name": "$dark-divider",
-      "value": "#393939",
-      "comment": "$gray-800"
+
+    {
+      "name": "$black",
+      "value": "#000",
+      "comment": ""
     },
 
 {
@@ -12,16 +13,7 @@
       "value": "#fff4e2",
       "comment": ""
 },
-{
-      "name": "$black-gray",
-      "value": "#0b0b0b",
-      "comment": "$verydark"
-    },
-{
-      "name": "$darker",
-      "value": "#1a1a1a",
-      "comment": "Used as background in TOC widget for special issue and Journal landing page for TOC widget box"
-    },
+
 
 {
       "name": "$dark-gray01",
@@ -46,11 +38,7 @@
       "value": "#f8f8f8",
       "comment": "Used for some disabled states"
     },
-    {
-      "name": "$disabled-color",
-      "value": "#eee",
-      "comment": "Used for some disabled states; also called $mute"
-    },
+
 
 {
       "name": "$dark-gray02",
