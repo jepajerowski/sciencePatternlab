@@ -1,0 +1,35 @@
+{
+  "items": [
+  
+  {
+    "name": "xs",
+    "value": "0",
+  },
+  {
+    "name": "sm",
+    "value": "520px",
+  },
+  {
+    "name": "md",
+    "value": "768px",
+  },
+  {
+    "name": "lg",
+    "value": "968px",
+  },
+  {
+    "name": "xl",
+    "value": "1248px",
+  },
+  {
+    "name": "xxl",
+    "value": "2048px",
+  },
+
+
+  ],
+
+  "meta":
+  {
+  }
+}

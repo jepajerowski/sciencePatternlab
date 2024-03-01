@@ -1,0 +1,25 @@
+{
+  "items": [
+
+  {
+    "name": "$letter-spacing-2",
+    "value": "0.02em",
+  },
+
+  {
+    "name": "$letter-spacing-4",
+    "value": "0.04em",
+  },
+
+  {
+    "name": "$letter-spacing-5",
+    "value": "0.05em",
+  },
+
+  {
+    "name": "$letter-spacing-8",
+    "value": "0.08em",
+  },
+
+  ],
+}

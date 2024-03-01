@@ -1,0 +1,21 @@
+<div class="mb-3">{{{ meta.description }}}</div>
+
+
+{{#each items }}
+
+<h4 class="mb-2">{{name}}</h4>
+<ul class="sg-icon-grid">
+
+    {{#each icons }}
+    <li class="sg-icon-grid__item">
+        <i class="{{this}}"></i>
+        <span class="sg-icon-grid__label">{{ this }}</span>
+    </li>
+    {{/each }}
+
+</ul>
+{{/ each}}
+<!--end sg-colors-->
+
+
+

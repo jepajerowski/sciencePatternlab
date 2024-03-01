@@ -1,0 +1,36 @@
+{
+  "items": [
+
+    {
+      "name": "$font-weight-lighter",
+      "value": "lighter",
+    },
+
+    {
+      "name": "$font-weight-light",
+      "value": "300",
+    },
+
+    {
+      "name": "$font-weight-normal",
+      "value": "400",
+    },
+
+    {
+      "name": "$font-weight-semi-bold",
+      "value": "500 !default",
+    },
+
+    {
+      "name": "$font-weight-bold",
+      "value": "700",
+    },
+
+    {
+      "name": "$font-weight-bolder",
+      "value": "900 !default",
+    }
+
+
+  ],
+}
