@@ -1,0 +1,17 @@
+<ul class="sg-colors">
+
+    {{# items }}
+    <li>
+        <div class="sg-swatch" style="background: {{ value }};"></div>
+        <div class="sg-label">
+            <div class="sg-label-name">{{ name }}</div>
+            <div class="sg-label-value">{{ value }}</div>
+            <div class="sg-label-comment">{{ comment }}</div>
+        </div>
+    </li>
+    {{/ items }}
+
+</ul>
+<!--end sg-colors-->
+
+<small>{{{ meta.description }}}</small>
