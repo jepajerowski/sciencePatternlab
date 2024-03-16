@@ -13,15 +13,15 @@
         </thead>
         <tbody>
 
-    {{# items }}
+    {{# spacers }}
     <tr>
         <td>{{ name }}</td>
         <td>{{ value }}rem</td>
         <td>{{ toPx value }}px</td>
         <td><div style="width:{{ value }}rem;height:{{ value }}rem;" class="bg-light-gray"></div></td>
-        <td>{{ ../base-rem }}rem * {{value}}</td>
+        <td>{{ ../spacer-base }}rem * {{value}}</td>
     </tr>
-    {{/ items }}
+    {{/ spacers }}
         </tbody>
     </table>
 </div>

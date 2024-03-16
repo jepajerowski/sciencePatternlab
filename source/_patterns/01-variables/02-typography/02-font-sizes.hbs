@@ -3,21 +3,19 @@
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Value in rem</th>
-                <th>Value in px</th>
+                <th>Value (rem / px)</th>
                 <th>Comment</th>
             </tr>
         </thead>
         <tbody>
 
-    {{# items }}
+    {{# font-sizes }}
     <tr>
-        <td>{{ name }}</td>
-        <td>{{ value-rem }}</td>
-        <td>{{ value-px }}</td>
-        <td>{{ comment }}</td>
+        <td>$font-size-{{ name }}</td>
+        <td>{{ value }}rem / {{ toPx value }}px</td>
+        <td>{{ ../spacer-base }}rem * {{value}}</td>
     </tr>
-    {{/ items }}
+    {{/ font-sizes }}
         </tbody>
     </table>
 </div>
