@@ -1,22 +1,25 @@
+<div>{{{ meta.description }}}</div>
+
 <div class="table-responsive">
     <table class="table table-sm sg-table">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Value (rem / px)</th>
+                <th>Class</th>
+                <th>Size (rem / px)</th>
                 <th>Comment</th>
+                <th>Sample</th>
             </tr>
         </thead>
         <tbody>
 
     {{# font-sizes }}
     <tr>
-        <td>$font-size-{{ name }}</td>
+        <td>text-{{ name }}</td>
         <td>{{ value }}rem / {{ toPx value }}px</td>
         <td>{{ ../spacer-base }}rem * {{value}}</td>
+        <td class="text-{{name}} letter-spacing-default">Lorem ipsum dolor sit amet</td>
     </tr>
     {{/ font-sizes }}
         </tbody>
     </table>
 </div>
-<small>{{{ meta.description }}}</small>

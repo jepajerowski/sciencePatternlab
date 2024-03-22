@@ -1,4 +1,4 @@
 ---
-title: Variables
+title: Global
 order: 0
 ---

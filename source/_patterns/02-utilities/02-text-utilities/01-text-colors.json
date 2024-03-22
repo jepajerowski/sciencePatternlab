@@ -1,7 +1,0 @@
-{
- 
-  "meta":
-  {
-    "description": "Use <code>text-{{name}}</code> text classes to apply text color. These classes are available for $primary and the theme grays. <br/> Example:<br/> <pre><code>&lt;span class=\"text-gray\"&gt;Lorem ipsum dolor sit amet.&lt;span&gt;</code></pre>"
-  }
-}

@@ -1,0 +1,44 @@
+{
+	"spacer-base": 1,
+
+	"font-sizes": [
+	{
+	  "name": "xl",
+	  "value": 1.375,
+	  "comment": "$font-size-base * 1.375"
+	},
+	{
+	  "name": "lg",
+	  "value": 1.25,
+	  "comment": "$font-size-base * 1.25"
+	},
+	{
+	  "name": "md",
+	  "value": 1.125,
+	  "comment": "$font-size-base * 1.125"
+	},
+	{
+	  "name": "base",
+	  "value": 1,
+	},
+	{
+	  "name": "sm",
+	  "value": 0.875,
+	  "comment": "$font-size-base * 0.875"
+	},
+	{
+	  "name": "xs",
+	  "value": 0.75,
+	  "comment": "$font-size-base * 0.75"
+	},
+	{
+	  "name": "xxs",
+	  "value": 0.625,
+	  "comment": "$font-size-base * 0.625"
+	}],
+
+	"meta":
+  {
+    "description": "Use <code>text-{{name}}</code> text classes to apply text sizes.<br/> Example:<br/> <pre><code>&lt;span class=\"text-md\"&gt;Lorem ipsum dolor sit amet.&lt;span&gt;</code></pre>"
+  }
+}
