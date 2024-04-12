@@ -1,0 +1,26 @@
+<div class="mb-3">{{{ meta.description }}}</div>
+
+<div class="table-responsive">
+    <table class="table table-sm sg-table">
+        <thead>
+            <tr>
+                <th>Class</th>
+                <th>Text color applied</th>
+                <th>Sample (on white)</th>
+                <th>Sample (on dark)</th>
+            </tr>
+        </thead>
+        <tbody>
+
+    {{# colors.primary-colors }}
+    	{{> global-text-color}}
+    {{/ colors.primary-colors }}
+
+    {{# colors.theme-grays }}
+    	{{> global-text-color}}
+    {{/ colors.theme-grays }}
+
+
+        </tbody>
+    </table>
+</div>

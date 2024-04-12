@@ -1,0 +1,27 @@
+<div class="mb-2">{{{ meta.description }}}</div>
+
+<div class="table-responsive">
+    <table class="table table-sm sg-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value in rem</th>
+                <th>Value in px</th>
+                <th>Example</th>
+                <th>Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+
+    {{# spacers }}
+    <tr>
+        <td>{{ name }}</td>
+        <td>{{ value }}rem</td>
+        <td>{{ toPx value }}px</td>
+        <td><div style="width:{{ value }}rem;height:{{ value }}rem;" class="bg-light-gray"></div></td>
+        <td>{{ ../spacer-base }}rem * {{value}}</td>
+    </tr>
+    {{/ spacers }}
+        </tbody>
+    </table>
+</div>

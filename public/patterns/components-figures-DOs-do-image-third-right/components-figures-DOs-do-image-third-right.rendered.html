@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+  <head>
+    <title>Science.org style guide</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style-build-20240405.css?1712942112263"  />
+    <link rel="stylesheet" href="../../css/style-local-20240405.css?1712942112263" media="all" />
+
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1712942112263" media="all" />
+
+
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="">
+    <script src="../../js/main.bundle.js?1712942112263"></script><div class="pl-pattern-wrapper-element news-article-content max-width-800"><figure class="news-article__figure border-light-gray third float-right">
+	<div class="news-article__figure__image__wrapper">
+	  <img src="../../images/1216x804.jpg" alt="Descriptive text." class="news-article__figure__image mb-2">
+	</div>	<figcaption class="news-article__figure__caption">
+	  <span class="text-sm text-gray letter-spacing-default">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="text-xxs ml-2 text-uppercase">Image Credit</span></span>
+	</figcaption></figure></div>
+<!--DO NOT REMOVE-->
+<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"elements-news-article-image","lineagePath":"../../patterns/elements-images-news-article-image/elements-images-news-article-image.rendered.html"},{"lineagePattern":"elements-news-caption","lineagePath":"../../patterns/elements-typographic elements-news-caption/elements-typographic elements-news-caption.rendered.html"}],"lineage":[{"lineagePattern":"elements-news-article-image","lineagePath":"../../patterns/elements-images-news-article-image/elements-images-news-article-image.rendered.html"},{"lineagePattern":"elements-news-caption","lineagePath":"../../patterns/elements-typographic elements-news-caption/elements-typographic elements-news-caption.rendered.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"layouts-News-feature-body","lineagePath":"../../patterns/layouts-News-feature-body/layouts-News-feature-body.rendered.html"}],"lineageR":[{"lineagePattern":"layouts-News-feature-body","lineagePath":"../../patterns/layouts-News-feature-body/layouts-News-feature-body.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternGroup":"components","patternSubgroup":"figures-DOs"},"patternExtension":"hbs","patternName":"DO Image third right","patternPartial":"components-do-image-third-right","patternState":"","patternEngineName":"handlebars","extraOutput":{"order":1,"wrapper-class":"news-article-content","max-width":"max-width-800"}}
+</script>
+
+<script>
+  window.patternData = {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"elements-news-article-image","lineagePath":"../../patterns/elements-images-news-article-image/elements-images-news-article-image.rendered.html"},{"lineagePattern":"elements-news-caption","lineagePath":"../../patterns/elements-typographic elements-news-caption/elements-typographic elements-news-caption.rendered.html"}],"lineage":[{"lineagePattern":"elements-news-article-image","lineagePath":"../../patterns/elements-images-news-article-image/elements-images-news-article-image.rendered.html"},{"lineagePattern":"elements-news-caption","lineagePath":"../../patterns/elements-typographic elements-news-caption/elements-typographic elements-news-caption.rendered.html"}],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"layouts-News-feature-body","lineagePath":"../../patterns/layouts-News-feature-body/layouts-News-feature-body.rendered.html"}],"lineageR":[{"lineagePattern":"layouts-News-feature-body","lineagePath":"../../patterns/layouts-News-feature-body/layouts-News-feature-body.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternGroup":"components","patternSubgroup":"figures-DOs"},"patternExtension":"hbs","patternName":"DO Image third right","patternPartial":"components-do-image-third-right","patternState":"","patternEngineName":"handlebars","extraOutput":{"order":1,"wrapper-class":"news-article-content","max-width":"max-width-800"}};
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+
+  var scriptLoader = {
+
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1712942112263">
+  (function() {
+    if (self != top) {
+      var cb = '1712942112263';
+      var js = [];
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+
+<script type="module">
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  import('../../styleguide/js/patternlab-pattern.modern.js');
+</script>
+
+<script id="pl-js-insert-1712942112263" nomodule>
+  /*! loadJS: load a JS file asynchronously. [c]2014 @scottjehl, Filament Group, Inc. (Based on https://goo.gl/REQGQ by Paul Irish). Licensed MIT */
+  !function(e){var t=function(t,n){"use strict";var o=e.document.getElementsByTagName("script")[0],r=e.document.createElement("script");return r.src=t,r.async=!0,o.parentNode.insertBefore(r,o),n&&"function"==typeof n&&(r.onload=n),r};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this);
+
+  // always load Pattern-specific JS so UI like accordions, etc can continue to work even when viewed as a standalone HTML page
+  loadJS('../../styleguide/js/patternlab-pattern.js');
+</script>
+
+
+</body>
+</html>
