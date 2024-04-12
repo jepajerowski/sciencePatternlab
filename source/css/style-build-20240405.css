@@ -1,5 +1,3 @@
-/*retrieved from https://www.science.org/products/aaas/releasedAssets/css/build-83a77a7051c939e62bc8.css Feb 16 2024*/
-
 .ms-ctn {
   position: relative;
   padding: 5px 12px
@@ -19325,14 +19323,14 @@ body.mouse-user .dropdown-toggle.institutional--link:focus {
 
 .card--inverse .card-related .card-body .authors,
 .card .card-related .card-body .authors {
-  margin-top: .25rem;
   display: inline;
+  margin-top: .25rem;
   margin-right: 1rem
 }
 
 .card--inverse .card-related .card-body .card-meta__item,
 .card .card-related .card-body .card-meta__item {
-  margin-right: .25rem
+  margin-right: .5625rem
 }
 
 .card--inverse .card-related .card-text,
@@ -22289,12 +22287,43 @@ body.loaded .hero__scroller .chevron-1 {
 }
 
 .pagination .page-item__arrow--prev .page-link {
-  margin-right: 1rem
+  margin-right: .25rem;
+  padding: 0
+}
+
+@media(min-width:520px) {
+  .pagination .page-item__arrow--prev .page-link {
+    margin-right: 1rem;
+    padding: 0 .25rem
+  }
 }
 
 .pagination .page-item__arrow--next:last-child .page-link {
   margin-right: 0;
-  margin-left: .5rem
+  margin-left: 0;
+  padding: 0
+}
+
+@media(min-width:520px) {
+  .pagination .page-item__arrow--next:last-child .page-link {
+    margin-left: .5rem;
+    padding: 0 .25rem
+  }
+}
+
+.pagination .page-item__arrow--next:last-child .page-link a {
+  padding: 0
+}
+
+@media(max-width:767.98px) {
+
+  .pagination__nav--first-last-two .page-item:nth-child(4),
+  .pagination__nav--first-last-two .page-item:nth-child(6),
+  .pagination__nav--float .page-item.active+.page-item,
+  .pagination__nav--middle .page-item:nth-child(4),
+  .pagination__nav--middle .page-item:nth-child(6) {
+    display: none
+  }
 }
 
 .sidebar-header__title {
@@ -24422,8 +24451,6 @@ body.loaded .hero__scroller .chevron-1 {
 }
 
 .animation-underline,
-.news-article-content--featured p a,
-.news-article-content p a,
 .sample-text--info-for-authors a:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text a:not(.btn):not(.goBack--link):not(.institutional--link) {
   text-decoration: none;
@@ -24437,8 +24464,6 @@ body.loaded .hero__scroller .chevron-1 {
 @media(prefers-reduced-motion) {
 
   .animation-underline,
-  .news-article-content--featured p a,
-  .news-article-content p a,
   .sample-text--info-for-authors a:not(.btn):not(.goBack--link):not(.institutional--link),
   .sample-text a:not(.btn):not(.goBack--link):not(.institutional--link) {
     transition: none
@@ -24446,17 +24471,11 @@ body.loaded .hero__scroller .chevron-1 {
 }
 
 .animation-underline:hover,
-.news-article-content--featured p [data-rel=animation-underline]:hover~.card-content a,
-.news-article-content--featured p a:hover,
-.news-article-content p [data-rel=animation-underline]:hover~.card-content a,
-.news-article-content p a:hover,
 .sample-text--info-for-authors [data-rel=animation-underline]:hover~.card-content a:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text [data-rel=animation-underline]:hover~.card-content a:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text a:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 [data-rel=animation-underline]:hover~.card-content .animation-underline,
-[data-rel=animation-underline]:hover~.card-content .news-article-content--featured p a,
-[data-rel=animation-underline]:hover~.card-content .news-article-content p a,
 [data-rel=animation-underline]:hover~.card-content .sample-text--info-for-authors a:not(.btn):not(.goBack--link):not(.institutional--link),
 [data-rel=animation-underline]:hover~.card-content .sample-text a:not(.btn):not(.goBack--link):not(.institutional--link) {
   text-decoration: none;
@@ -26197,15 +26216,9 @@ time {
 }
 
 .dropdown-selectable--form-control .animation-underline.dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content--featured p a.dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content p a.dropdown-toggle,
 .dropdown-selectable--form-control .sample-text--info-for-authors a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
 .dropdown-selectable--form-control .sample-text a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
 .form-control.animation-underline,
-.news-article-content--featured p .dropdown-selectable--form-control a.dropdown-toggle,
-.news-article-content--featured p a.form-control,
-.news-article-content p .dropdown-selectable--form-control a.dropdown-toggle,
-.news-article-content p a.form-control,
 .sample-text--info-for-authors .dropdown-selectable--form-control a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.form-control:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text .dropdown-selectable--form-control a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26219,15 +26232,9 @@ time {
 @media(prefers-reduced-motion:reduce) {
 
   .dropdown-selectable--form-control .animation-underline.dropdown-toggle,
-  .dropdown-selectable--form-control .news-article-content--featured p a.dropdown-toggle,
-  .dropdown-selectable--form-control .news-article-content p a.dropdown-toggle,
   .dropdown-selectable--form-control .sample-text--info-for-authors a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
   .dropdown-selectable--form-control .sample-text a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
   .form-control.animation-underline,
-  .news-article-content--featured p .dropdown-selectable--form-control a.dropdown-toggle,
-  .news-article-content--featured p a.form-control,
-  .news-article-content p .dropdown-selectable--form-control a.dropdown-toggle,
-  .news-article-content p a.form-control,
   .sample-text--info-for-authors .dropdown-selectable--form-control a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
   .sample-text--info-for-authors a.form-control:not(.btn):not(.goBack--link):not(.institutional--link),
   .sample-text .dropdown-selectable--form-control a.dropdown-toggle:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26237,15 +26244,9 @@ time {
 }
 
 .dropdown-selectable--form-control .animation-underline.dropdown-toggle:hover,
-.dropdown-selectable--form-control .news-article-content--featured p a.dropdown-toggle:hover,
-.dropdown-selectable--form-control .news-article-content p a.dropdown-toggle:hover,
 .dropdown-selectable--form-control .sample-text--info-for-authors a.dropdown-toggle:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .dropdown-selectable--form-control .sample-text a.dropdown-toggle:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .form-control.animation-underline:hover,
-.news-article-content--featured p .dropdown-selectable--form-control a.dropdown-toggle:hover,
-.news-article-content--featured p a.form-control:hover,
-.news-article-content p .dropdown-selectable--form-control a.dropdown-toggle:hover,
-.news-article-content p a.form-control:hover,
 .sample-text--info-for-authors .dropdown-selectable--form-control a.dropdown-toggle:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.form-control:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text .dropdown-selectable--form-control a.dropdown-toggle:hover:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26256,24 +26257,12 @@ time {
 
 .dropdown-selectable--form-control .animation-underline.dropdown-toggle:focus,
 .dropdown-selectable--form-control .animation-underline.dropdown-toggle:focus-within,
-.dropdown-selectable--form-control .news-article-content--featured p a.dropdown-toggle:focus,
-.dropdown-selectable--form-control .news-article-content--featured p a.dropdown-toggle:focus-within,
-.dropdown-selectable--form-control .news-article-content p a.dropdown-toggle:focus,
-.dropdown-selectable--form-control .news-article-content p a.dropdown-toggle:focus-within,
 .dropdown-selectable--form-control .sample-text--info-for-authors a.dropdown-toggle:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
 .dropdown-selectable--form-control .sample-text--info-for-authors a.dropdown-toggle:focus:not(.btn):not(.goBack--link):not(.institutional--link),
 .dropdown-selectable--form-control .sample-text a.dropdown-toggle:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
 .dropdown-selectable--form-control .sample-text a.dropdown-toggle:focus:not(.btn):not(.goBack--link):not(.institutional--link),
 .form-control.animation-underline:focus,
 .form-control.animation-underline:focus-within,
-.news-article-content--featured p .dropdown-selectable--form-control a.dropdown-toggle:focus,
-.news-article-content--featured p .dropdown-selectable--form-control a.dropdown-toggle:focus-within,
-.news-article-content--featured p a.form-control:focus,
-.news-article-content--featured p a.form-control:focus-within,
-.news-article-content p .dropdown-selectable--form-control a.dropdown-toggle:focus,
-.news-article-content p .dropdown-selectable--form-control a.dropdown-toggle:focus-within,
-.news-article-content p a.form-control:focus,
-.news-article-content p a.form-control:focus-within,
 .sample-text--info-for-authors .dropdown-selectable--form-control a.dropdown-toggle:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors .dropdown-selectable--form-control a.dropdown-toggle:focus:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.form-control:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26354,10 +26343,6 @@ input[type=number] {
 
 .form-group.animation-underline,
 .input-group.animation-underline,
-.news-article-content--featured p a.form-group,
-.news-article-content--featured p a.input-group,
-.news-article-content p a.form-group,
-.news-article-content p a.input-group,
 .sample-text--info-for-authors a.form-group:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.input-group:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text a.form-group:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26368,10 +26353,6 @@ input[type=number] {
 
 .form-group.animation-underline:hover,
 .input-group.animation-underline:hover,
-.news-article-content--featured p a.form-group:hover,
-.news-article-content--featured p a.input-group:hover,
-.news-article-content p a.form-group:hover,
-.news-article-content p a.input-group:hover,
 .sample-text--info-for-authors a.form-group:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.input-group:hover:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text a.form-group:hover:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26381,10 +26362,6 @@ input[type=number] {
 
 .form-group.animation-underline:before,
 .input-group.animation-underline:before,
-.news-article-content--featured p a.form-group:before,
-.news-article-content--featured p a.input-group:before,
-.news-article-content p a.form-group:before,
-.news-article-content p a.input-group:before,
 .sample-text--info-for-authors a.form-group:not(.btn):not(.goBack--link):not(.institutional--link):before,
 .sample-text--info-for-authors a.input-group:not(.btn):not(.goBack--link):not(.institutional--link):before,
 .sample-text a.form-group:not(.btn):not(.goBack--link):not(.institutional--link):before,
@@ -26404,10 +26381,6 @@ input[type=number] {
 
 .form-group.animation-underline:focus-within:before,
 .input-group.animation-underline:focus-within:before,
-.news-article-content--featured p a.form-group:focus-within:before,
-.news-article-content--featured p a.input-group:focus-within:before,
-.news-article-content p a.form-group:focus-within:before,
-.news-article-content p a.input-group:focus-within:before,
 .sample-text--info-for-authors a.form-group:focus-within:not(.btn):not(.goBack--link):not(.institutional--link):before,
 .sample-text--info-for-authors a.input-group:focus-within:not(.btn):not(.goBack--link):not(.institutional--link):before,
 .sample-text a.form-group:focus-within:not(.btn):not(.goBack--link):not(.institutional--link):before,
@@ -26419,14 +26392,6 @@ input[type=number] {
 .form-group.animation-underline:focus-within,
 .input-group.animation-underline:focus,
 .input-group.animation-underline:focus-within,
-.news-article-content--featured p a.form-group:focus,
-.news-article-content--featured p a.form-group:focus-within,
-.news-article-content--featured p a.input-group:focus,
-.news-article-content--featured p a.input-group:focus-within,
-.news-article-content p a.form-group:focus,
-.news-article-content p a.form-group:focus-within,
-.news-article-content p a.input-group:focus,
-.news-article-content p a.input-group:focus-within,
 .sample-text--info-for-authors a.form-group:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.form-group:focus:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text--info-for-authors a.input-group:focus-within:not(.btn):not(.goBack--link):not(.institutional--link),
@@ -26446,10 +26411,6 @@ input[type=number] {
 
 .dropdown-selectable--form-control .form-group.animation-underline .dropdown-toggle,
 .dropdown-selectable--form-control .input-group.animation-underline .dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content--featured p a.form-group .dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content--featured p a.input-group .dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content p a.form-group .dropdown-toggle,
-.dropdown-selectable--form-control .news-article-content p a.input-group .dropdown-toggle,
 .dropdown-selectable--form-control .sample-text--info-for-authors a.form-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-toggle,
 .dropdown-selectable--form-control .sample-text--info-for-authors a.input-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-toggle,
 .dropdown-selectable--form-control .sample-text a.form-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-toggle,
@@ -26458,18 +26419,6 @@ input[type=number] {
 .form-group.animation-underline .form-control,
 .input-group.animation-underline .dropdown-selectable--form-control .dropdown-toggle,
 .input-group.animation-underline .form-control,
-.news-article-content--featured p .dropdown-selectable--form-control a.form-group .dropdown-toggle,
-.news-article-content--featured p .dropdown-selectable--form-control a.input-group .dropdown-toggle,
-.news-article-content--featured p a.form-group .dropdown-selectable--form-control .dropdown-toggle,
-.news-article-content--featured p a.form-group .form-control,
-.news-article-content--featured p a.input-group .dropdown-selectable--form-control .dropdown-toggle,
-.news-article-content--featured p a.input-group .form-control,
-.news-article-content p .dropdown-selectable--form-control a.form-group .dropdown-toggle,
-.news-article-content p .dropdown-selectable--form-control a.input-group .dropdown-toggle,
-.news-article-content p a.form-group .dropdown-selectable--form-control .dropdown-toggle,
-.news-article-content p a.form-group .form-control,
-.news-article-content p a.input-group .dropdown-selectable--form-control .dropdown-toggle,
-.news-article-content p a.input-group .form-control,
 .sample-text--info-for-authors .dropdown-selectable--form-control a.form-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-toggle,
 .sample-text--info-for-authors .dropdown-selectable--form-control a.input-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-toggle,
 .sample-text--info-for-authors a.form-group:not(.btn):not(.goBack--link):not(.institutional--link) .dropdown-selectable--form-control .dropdown-toggle,
@@ -26725,8 +26674,8 @@ input[type=number] {
 
 @font-face {
   font-family: icomoon;
-  src: url(../fonts/icomoon-178478339ff225993cf92aac7213fcb4.eot);
-  src: url(../fonts/icomoon-178478339ff225993cf92aac7213fcb4.eot#iefix) format("embedded-opentype"), url(../fonts/icomoon-c80489b677bd503cc1e2592658625773.ttf) format("truetype"), url(../fonts/icomoon-ea0047a4d1790b5162720074aebea9c5.woff) format("woff"), url(../images/icomoon-2a3151dbad41eb49fed2cb2276b68d22.svg#icomoon) format("svg");
+  src: url(../fonts/icomoon-a1caa842fc0d67774203bfb224471906.eot);
+  src: url(../fonts/icomoon-a1caa842fc0d67774203bfb224471906.eot#iefix) format("embedded-opentype"), url(../fonts/icomoon-c5e2abe8e58595ca0b50ef4b09527194.ttf) format("truetype"), url(../fonts/icomoon-846d36bd17936db0285ee1bce9292b7b.woff) format("woff"), url(../images/icomoon-0ddbd462738a320c7e82ad4099330cb5.svg#icomoon) format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: block
@@ -26849,6 +26798,10 @@ input[type=number] {
 .icon-whatsapp:before {
   content: "󡁰";
   color: #25d366
+}
+
+.icon-whatsapp2:before {
+  content: "󡐢"
 }
 
 @font-face {
@@ -29482,7 +29435,8 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
 }
 
 .header-ads {
-  z-index: 1222
+  z-index: 1222;
+  position: relative
 }
 
 .header-ads.js--sticky {
@@ -32372,8 +32326,6 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
   opacity: 1
 }
 
-.news-article-content--featured p a.search-jobs__form-group,
-.news-article-content p a.search-jobs__form-group,
 .sample-text--info-for-authors a.search-jobs__form-group:not(.btn):not(.goBack--link):not(.institutional--link),
 .sample-text a.search-jobs__form-group:not(.btn):not(.goBack--link):not(.institutional--link),
 .search-jobs__form-group.animation-underline {
@@ -34073,6 +34025,11 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
   border-right: .0625rem solid #757575
 }
 
+.news-article__figure__caption {
+  line-height: 18px;
+  line-height: 1.125rem
+}
+
 .news-article-content,
 .news-article-content--featured {
   margin-bottom: 2.5rem
@@ -34348,11 +34305,9 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
   }
 }
 
-.news-article-content--featured p a:focus,
-.news-article-content--featured p a:hover,
-.news-article-content p a:focus,
-.news-article-content p a:hover {
-  color: #ca2015 !important
+.news-article-content--featured p a,
+.news-article-content p a {
+  text-decoration: underline
 }
 
 .news-article-content--featured p:last-child,
@@ -34452,10 +34407,6 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
     height: 100%;
     box-shadow: -1.25rem 0 2rem 0 #fff
   }
-}
-
-.news-article-content--featured {
-  margin-bottom: 0
 }
 
 @media(min-width:1248px) {
@@ -34733,6 +34684,18 @@ body:not(.loaded) .main-navbar .navbar-brand__dark {
 
 .news-article-body .related {
   margin-bottom: 1.5rem
+}
+
+@media(min-width:1248px) {
+
+  .news-article--featured .news-article-content-footer,
+  .news-article--featured .onesignal-customlink-container {
+    padding: 0 2.875rem
+  }
+
+  .news-article--featured .news-article-featured--hr {
+    margin: 0 2.875rem
+  }
 }
 
 .current-issue-aside__cover {
@@ -39415,4 +39378,4 @@ body:not(.mouse-user) .facet__date__chart__form input:focus {
   top: .4375rem
 }
 
-/*# sourceMappingURL=build-83a77a7051c939e62bc8.css.map */
+/*# sourceMappingURL=build-7276a2543a23108b40fd.css.map */
