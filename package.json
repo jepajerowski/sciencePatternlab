@@ -11,7 +11,8 @@
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
     "pl:version": "patternlab --version",
     "start": "npm run pl:serve",
-    "patternlab": "patternlab"
+    "patternlab": "patternlab",
+    "build": "assemble"
   },
   "keywords": [],
   "author": "",
