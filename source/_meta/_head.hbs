@@ -5,8 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
+    <link rel="stylesheet" href="../../css/build-20240405.css?{{ cacheBuster }}"  />
+    <link rel="stylesheet" href="../../css/local-20240405.css?{{ cacheBuster }}" media="all" />
+
     <link rel="stylesheet" href="../../css/pattern-scaffolding.css?{{ cacheBuster }}" media="all" />
+
+
 
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     {{{ patternLabHead }}}
@@ -14,3 +18,4 @@
 
   </head>
   <body class="{{ bodyClass }}">
+    <script src="../../js/main.bundle.js?{{ cacheBuster }}"></script>

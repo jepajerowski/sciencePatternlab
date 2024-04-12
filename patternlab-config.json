@@ -115,6 +115,6 @@
       "excludedTags": []
     }
   ],
-  "patternWrapClassesEnable": false,
-  "patternWrapClassesKey": []
+  "patternWrapClassesEnable": true,
+  "patternWrapClassesKey": ["wrapper-class", "max-width"]
 }

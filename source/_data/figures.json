@@ -1,0 +1,11 @@
+{
+	"newsImg": "../../images/1216x804.jpg",
+	"newsImg2": "../../images/1216x804_2.jpg",
+	"newsImg3": "../../images/1216x804_3.jpg",
+	"newsImg4": "../../images/1216x804_4.jpg",
+	"altText": "Descriptive text.",
+	"newsCaption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"newsCaptionAlt": "Quisque vestibulum imperdiet tortor, id rutrum neque malesuada eget. Sed vel sagittis elit. Morbi dolor lectus, placerat non pulvinar quis, vulputate mattis mauris.",
+	"credit": "Image Credit",
+	"wrapperClass": "news-article-content max-width-800",
+}

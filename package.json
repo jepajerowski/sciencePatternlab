@@ -10,16 +10,20 @@
     "pl:install": "patternlab install --config ./patternlab-config.json",
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
     "pl:version": "patternlab --version",
-    "start": "npm run pl:serve"
+    "start": "npm run pl:serve",
+    "patternlab": "patternlab"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pattern-lab/cli": "^6.0.1",
     "@pattern-lab/core": "^6.0.1",
     "@pattern-lab/engine-handlebars": "^6.0.0",
     "@pattern-lab/starterkit-handlebars-vanilla": "^1.4.3",
     "@pattern-lab/uikit-workshop": "^6.0.3"
+  },
+  "devDependencies": {
+    "@pattern-lab/cli": "^6.1.0",
+    "assemble": "^0.24.3"
   }
 }
